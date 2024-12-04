@@ -1,6 +1,5 @@
-# jellyfin
-Jellyfin - Docker-compose
+# Jellyfin
 
-ver en "localhost:8200"
+ver en "http://localhost:8200"
 
 
