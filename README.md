@@ -1,5 +1,5 @@
 # Jellyfin
 
-ver en "http://localhost:8200"
+ver en "http://localhost:8096"
 
 
