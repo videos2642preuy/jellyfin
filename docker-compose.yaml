@@ -18,3 +18,5 @@ services:
       - ./tvseries:/data/tvshows
       - ./movies:/data/movies
       - ./music:/data/music
+      - ./filmes:/ /mnt/drive
+      
