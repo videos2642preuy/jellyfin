@@ -18,6 +18,3 @@ services:
       - ./tvseries:/data/tvshows
       - ./movies:/data/movies
       - ./music:/data/music
-     rclone:
-      - sudo -v ; curl https://rclone.org/install.sh | sudo bash
-      - rclone mount gdrive:/ /mnt/drive --allow-other --umask=002 --uid=0110 --gid=0117 --poll-interval 30s --dir-perms=0770 --file-perms=0664 --log-level DEBUG --vfs-cache-mode writes --log-file /var/log/drive.log &
