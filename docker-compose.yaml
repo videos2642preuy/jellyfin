@@ -18,3 +18,4 @@ services:
       - ./tvseries:/data/tvshows
       - ./movies:/data/movies
       - ./music:/data/music
+      - ./drive:/data/drive
